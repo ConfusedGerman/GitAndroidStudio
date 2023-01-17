@@ -1,0 +1,6 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">FinalProject</string>
+    <string name="hello_beautiful_world">Hello beautiful World!</string>
+    <string name="alpha_vantage_api_key" tools:ignore="Typos">WJCY1KTZ461RE4JQ</string> // API-key for financal data
+
+</resources>
