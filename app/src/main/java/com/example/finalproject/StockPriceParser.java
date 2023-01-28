@@ -2,6 +2,8 @@ package com.example.finalproject;
 
 import org.json.JSONException;
 import org.json.JSONObject;
+import android.util.Log;
+
 
 public class StockPriceParser {
 
@@ -13,7 +15,8 @@ public class StockPriceParser {
             String price = quote.getString("05. price");
             return price;
         } catch (JSONException e) {
-            // There was an error parsing the JSON. You can handle the error here.
+            // There was an error parsing the JSON.
+            System.exit(1);
             return null;
         }
     }
